@@ -2,7 +2,6 @@ const mongoose =require("mongoose");
 mongoose.connect("mongodb://localhost:27017/Testimony");
 
 const Schema = mongoose.Schema;
-
 const PeoplesSchema = new Schema({
 
     slno: Number,
