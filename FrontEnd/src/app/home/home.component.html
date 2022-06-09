@@ -1,0 +1,54 @@
+<div class="homebody">
+    
+<!-- Landing Page -->
+<div class="landingpage text-white">
+
+    <div class="words">
+        <h2  class="mx-5 headingword">Jagan Varah J S</h2>
+        <h2 class="headingword" >I am a FullStack Developer</h2>
+        <a style="font-family: 'Titillium Web', sans-serif;" routerLink="" class="button button-float">Hire Me</a>
+
+    </div>
+
+
+</div>
+
+<!-- Service Page -->
+<div class="servicepage">
+
+  <app-service></app-service>
+
+</div>
+<!-- Testimonial -->
+<div class="testimonyclass">
+  <h1 class="text-center mb-5 heading">Testimonials</h1>
+
+  <div class="container">
+    <owl-carousel-o [options]="customOptions">
+
+        <ng-template carouselSlide *ngFor='let i of peopledata'>
+                    <div class="itembox">
+
+                      <div class="img-box">
+                        <img src={{i.imageurl}} alt="">
+                      </div>
+
+                        <h5 class="text-center mb-3">
+                          {{i.name}}
+                      </h5>
+                      <p style="font-family: 'Inconsolata', monospace;" class="text-center">
+                          "{{i.review}}"
+                      </p>
+
+
+                    </div>
+                
+        </ng-template>
+
+    </owl-carousel-o>
+</div>
+
+
+</div>
+</div>
+

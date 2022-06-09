@@ -1,0 +1,88 @@
+.homebody{
+    min-height: 550px;
+    background-color: antiquewhite;
+    margin-top: 75px;
+
+}
+
+.landingpage{
+    height: 89vh;
+    background-image: url('https://t3.ftcdn.net/jpg/04/32/96/82/360_F_432968278_1EEoicvpvpqFhCcoon2iqbmorlapPY8H.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.servicepage{
+    min-height: 100vh;
+    background-color:rgba(0, 191, 255, 0.079);
+    width: 100%;
+
+}
+.testimonyclass{
+    height: 95vh;
+    
+}
+
+.heading{
+  padding-top: 6vh;
+  font-family: 'Acme', sans-serif;
+}
+
+.words{
+    padding-top: 25vh;
+    padding-left: 10vh;
+}
+
+.button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    margin: 40px;
+    box-shadow: 0 2px 5px 0 rgba(3,6,26,0.15);
+    transition: .5s all ease-in-out;
+}
+    .button:hover {
+      cursor: pointer;
+      background: rgb(255, 0, 0);
+      color: #ffffff;
+      animation: none;
+
+    }
+  
+  
+  
+  
+  .button-float {
+    animation: float 1.5s linear alternate infinite;
+  }
+  
+  @keyframes float {
+      50% {
+      transform: translateY(-px);
+    }
+    100% {
+      transform: translateY(-18px);
+    }
+  }
+  .headingword{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+  }
+
+
+  /* testimonials */
+.img-box{
+  width: 150px;
+}
+.itembox{
+  padding: 40px;
+  background-color: rgba(210, 105, 30, 0.394);
+  margin: 10px;
+  border-radius: 30px;
+}
